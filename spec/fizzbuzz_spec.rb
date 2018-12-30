@@ -41,4 +41,3 @@ end
     puts number
   end
 end
-
