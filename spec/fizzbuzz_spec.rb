@@ -31,7 +31,7 @@ end
 #  puts"FizzBuzz"
 #end
 1.upto(100) do |number|
-  if number % 3 == fizz_15 && number % 5 == fizz_15
+  if number % 3 == 0 && number % 5 == 0
     puts 'FizzBuzz'
   elsif number % 3 == 0
     puts 'Fizz'
