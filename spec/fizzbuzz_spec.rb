@@ -32,7 +32,7 @@ end
 #end
 1.upto(100) do |number|
   if number % 3 == 0 && number % 5 == 0
-    puts 'FizzBuzz'
+    puts 'fizzbuzz(15)'
   elsif number % 3 == 0
     puts 'Fizz'
   elsif number % 5 == 0
