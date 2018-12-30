@@ -22,26 +22,3 @@ describe "fizzbuzz" do
     expect(fizz_4).to eq(nil)
   end
 end
-#numbers=(1..100)
-#if numbers/3
-  #puts"Fizz"#
-#elsif numbers/5
-#  puts"Buzz"
-#elsif numbers/15
-#  puts"FizzBuzz"
-#end
-#1.upto(100) do |number|
-#  if number % 3 == 0 && number % 5 == 0
-#    puts 'FizzBuzz'
-#  elsif number % 3 == 0
-#    puts 'Fizz'
-#  elsif number % 5 == 0
-#    puts 'Buzz'
-#  else
-#    puts number
-#  end
-#end
-def fizzbuzz(3)
-  1.upto(100) do |fizz_3|
-    puts"Fizz"
-  end
